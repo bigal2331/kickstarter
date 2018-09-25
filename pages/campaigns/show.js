@@ -11,7 +11,7 @@ class CampaignShow extends Component {
     //getInitialProps gets it's own set of props that are different than the component props
     const campaign = campaignFunc(props.query.address);
     const summary = await campaign.methods.getSummary().call();
-    console.log(summary);
+
     return {
       address: props.query.address,
       minimumContribution: summary[0],
