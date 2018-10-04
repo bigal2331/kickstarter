@@ -44,3 +44,4 @@ Anyone can create a new campaign by clicking on the "Create New Campaign" button
 - Web3.js- For interfacing with the Ethereum blockchain
 - Next.js - For easy routing services
 - Semantic UI - For styling and UI components
+- Solidity - To create ethereum smart contracts
